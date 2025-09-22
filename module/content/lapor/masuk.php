@@ -14,6 +14,11 @@ if (empty($_SESSION['ses_user']) and empty($_SESSION['ses_pass']) and empty($_SE
 
     default:
 ?>
+      <div class="content-header">
+        <div class="container-fluid">
+          <h1 class="m-0">Laporan masuk</h1>
+        </div>
+      </div>
       <div class="content">
         <div class="container-fluid">
           <p><button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#tambah"><i class="fas fa-plus"></i> Kirim Laporan</button></p>
